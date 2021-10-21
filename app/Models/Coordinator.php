@@ -19,7 +19,7 @@ class Coordinator extends Model
         return $this->belongsTo('App\Models\User');
     }
 
-    public function note()
+    public function notes()
     {
         return $this->hasMany('App\Models\Note');
     }
